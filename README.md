@@ -14,7 +14,7 @@ Go to **Control Panel** > **Edit the system environment variable**, and add an *
 ### 2. Dependencies 
 
 ```bash
-pip install numpy pyaudio collections wave openai pygame
+pip install numpy pyaudio wave openai pygame
 ```
 
 ### 3. Run the Script: 
