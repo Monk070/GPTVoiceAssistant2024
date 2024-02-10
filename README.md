@@ -5,7 +5,11 @@ Uses OpenAI Whisper to transcribe audio from spoken input. Working as of Februar
 
 ### 1. API Key: 
 
-Replace `client = OpenAI()' with 'client = OpenAI(api_key="YOUR_API_KEY")` or go to Control Panel > Edit the system environment variable, and add an OPENAI_API_KEY
+Replace `client = OpenAI()' with 'client = OpenAI(api_key="YOUR_API_KEY")` 
+
+or
+
+Go to Control Panel > Edit the system environment variable, and add an OPENAI_API_KEY
 
 ### 2. Dependencies 
 
