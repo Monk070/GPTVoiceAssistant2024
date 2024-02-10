@@ -1,5 +1,5 @@
-#ChatGPT Voice Chat 
-Uses OpenAI Whisper to transcribe audio from spoken input
+# ChatGPT Voice Chat 
+Uses OpenAI Whisper to transcribe audio from spoken input. Working as of February 10th 2024 
 
 ## 🛠️Setup 
 
