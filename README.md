@@ -1,5 +1,5 @@
 # ChatGPT Voice Chat 
-Uses OpenAI Whisper to transcribe audio from spoken input. Working as of February 10th 2024 
+Uses OpenAI Whisper to transcribe audio from spoken input. Working as of February 10th 2024.
 
 ## 🛠️Setup 
 
@@ -7,9 +7,9 @@ Uses OpenAI Whisper to transcribe audio from spoken input. Working as of Februar
 
 Replace `client = OpenAI()' with 'client = OpenAI(api_key="YOUR_API_KEY")` 
 
-or
+*or*
 
-Go to Control Panel > Edit the system environment variable, and add an OPENAI_API_KEY
+Go to **Control Panel** > **Edit the system environment variable**, and add an **OPENAI_API_KEY**
 
 ### 2. Dependencies 
 
