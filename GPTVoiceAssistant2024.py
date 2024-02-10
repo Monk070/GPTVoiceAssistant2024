@@ -1,31 +1,3 @@
-"""
-VoiceGPT Interaction Script
-
-Author: Dan Woodward
-Version: 0.1
-Last updated: 10th February 2024
-
-Description:
-This script enables an interactive conversation with GPT-4 using voice commands. It performs the following steps:
-1) Listens and records audio input from the user.
-2) Transcribes the recorded voice input into text using OpenAI's Whisper model.
-3) Sends the transcribed text as input to the GPT-4 API for processing.
-4) Receives a response from GPT-4 and converts this text into speech, playing it back to the user.
-
-Requirements:
-- OpenAI API key for accessing Whisper and GPT-4 models
-- PyAudio for recording audio input
-- NumPy for audio signal processing
-- Wave for handling WAV file operations
-- Pygame for playing the text-to-speech audio
-
-Usage:
-Ensure you have the required libraries installed and an OpenAI API key set up.
-Run the script, speak into your microphone, and engage in a conversation with GPT-4.
-Say 'quit' or 'exit' to end the interaction.
-
-"""
-
 import numpy
 import pyaudio
 import collections
